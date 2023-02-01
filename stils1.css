@@ -1,0 +1,21 @@
+body{
+    background-color:#c7a98e;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+h1{
+    font-size:70px;
+    color: #004d66;
+   
+}
+button {
+    background-color: #ebe8e3; 
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 15px;
+  }

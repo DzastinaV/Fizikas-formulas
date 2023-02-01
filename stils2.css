@@ -1,0 +1,21 @@
+body{
+    background-color:#c7a98e;
+    font-family: 'Times New Roman', Times, serif;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    color:white;
+}
+.apmale{
+    display: grid;
+    background-color:#004d66;
+    column-gap: 100px;
+    grid-template-columns: 900px 300px;
+    column-rule-color: #615353;
+}
+.teorija{
+    color:white;
+}
+.apzimejumi{
+    color:white;
+}

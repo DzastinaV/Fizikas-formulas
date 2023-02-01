@@ -9,24 +9,20 @@ h1{
     color: #004d66;
    
 }
-button {
-    background-color: #ebe8e3; 
-    border: none;
-    color: rgb(0, 0, 0);
-    padding: 15px 32px;
-    text-align: center;
-    display: inline-block;
-    font-size: 16px;
-    border-radius: 15px;
-  }
-.button1{
-    background-color: #ebe8e3; 
-    border: none;
-    color: rgb(0, 0, 0);
-    padding: 15px 32px;
-    text-align: center;
-    display: inline-block;
-    font-size: 16px;
-    border-radius: 15px;
 
+  .button1{
+    background-color: #ebe8e3; 
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 15px;
+    border: 2px solid #002033;
+    
 }
+.button1:hover {
+    background-color: #3b5158; 
+    color:#ebe8e3;
+  }

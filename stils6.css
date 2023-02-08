@@ -1,0 +1,26 @@
+body{
+    background-color:#c7a98e;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+h1{
+    font-size:60px;
+    color: #004d66;
+    text-align: center;
+}
+hr{
+    border: 3px solid rgb(255, 255, 255);
+}
+h2{
+    font-size:30px;
+    color: #001c25;
+    text-align: center;
+}
+h3{
+    font-size:25px;
+    color: #f3f3f3;
+    text-align: center;
+}
+.apmale{}
+.formulas{}

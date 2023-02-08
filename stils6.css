@@ -1,6 +1,7 @@
 body{
     background-color:#c7a98e;
     font-family: 'Times New Roman', Times, serif;
+    text-align: center;
 
 }
 
@@ -25,8 +26,27 @@ h3{
 .teksts{
     text-align: center;
 }
-.apmale{}
-.formulas{}
+.apmale{
+text-align: center;
+display: grid;
+background-color: #004d66;
+column-gap: 100px;
+grid-template-columns: 900px 300px;
+column-rule-color: #615353;
+}
+.Formulas{
+color:#f3f3f3;
+text-align: center;
+}
+.Uzdevumi{
+display: grid;
+background-color:#a08772;
+column-gap: 100px;
+grid-template-columns: 900px 300px;
+column-rule-color: #615353;
+border: 3px solid #001c25;
+text-align: center;
+}
 
 .button1{
     background-color: #ebe8e3; 

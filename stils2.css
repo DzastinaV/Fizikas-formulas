@@ -8,16 +8,18 @@ p{
     color:white;
 }
 .apmale{
-    display: grid;
+    display: flex;
     background-color:#004d66;
     column-gap: 100px;
     grid-template-columns: 900px 300px;
-    column-rule-color: #615353;
+    
 }
 .teorija{
+  width: 1100px;
     color:white;
 }
 .apzimejumi{
+  width: 100px;
     color:white;
 }
 

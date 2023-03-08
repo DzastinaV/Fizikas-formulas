@@ -22,9 +22,11 @@ h2{
     padding: 15px 32px;
     text-align: center;
     display: inline-block;
-    font-size: 16px;
+    font-size: 20px;
     border-radius: 15px;
     border: 2px solid #002033;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
     
 }
 .button1:hover {
@@ -40,9 +42,11 @@ h2{
     padding: 15px 32px;
     text-align: center;
     display: inline-block;
-    font-size: 16px;
+    font-size: 20px;
     border-radius: 15px;
     border: 2px solid #002033;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
     
 }
 .button2:hover {
@@ -58,11 +62,13 @@ h2{
     padding: 15px 32px;
     text-align: center;
     display: inline-block;
-    font-size: 16px;
+    font-size: 20px;
     border-radius: 15px;
     border: 2px solid #002033;
-    
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
 }
+
 .button3:hover {
     background-color: #3b5158; 
     color:#ebe8e3;
@@ -76,9 +82,11 @@ h2{
     padding: 15px 32px;
     text-align: center;
     display: inline-block;
-    font-size: 16px;
+    font-size: 20px;
     border-radius: 15px;
     border: 2px solid #002033;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
     
 }
 .button4:hover {
@@ -94,9 +102,11 @@ h2{
     padding: 15px 32px;
     text-align: center;
     display: inline-block;
-    font-size: 16px;
+    font-size: 20px;
     border-radius: 15px;
     border: 2px solid #002033;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
     
 }
 .button5:hover {

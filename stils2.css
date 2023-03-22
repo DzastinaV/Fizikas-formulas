@@ -6,6 +6,7 @@ body{
 p{
     font-family: 'Times New Roman', Times, serif;
     color:white;
+    font-size:17px;
 }
 .apmale{
     display: flex;
@@ -71,4 +72,15 @@ h2{
     font-size:30px;
     color: white;
    
+}
+h3{
+  font-size:23px;
+  color: white;
+}
+img{
+  height: 200px;
+  width: 200px;
+}
+table, th, td {
+  border: 1px solid;
 }

@@ -27,12 +27,11 @@ p{
 .button1{
     background-color: #ebe8e3; 
     border: none;
-    color: rgb(0, 0, 0);
+    color:rgb(31, 82, 105);
     padding: 15px 32px;
     text-align: center;
     display: inline-block;
     font-size: 16px;
-    border-radius: 15px;
     border: 2px solid #002033;
     margin-left:1600px;
   
@@ -46,12 +45,11 @@ p{
   .button2{
     background-color: #ebe8e3; 
     border: none;
-    color: rgb(0, 0, 0);
+    color: rgb(31, 82, 105);
     padding: 15px 32px;
     text-align: center;
     display: inline-block;
     font-size: 16px;
-    border-radius: 15px;
     border: 2px solid #002033;
     margin-left:1637px;
   

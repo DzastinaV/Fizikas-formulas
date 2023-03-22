@@ -13,6 +13,7 @@ p{
     background-color:#004d66;
     column-gap: 100px;
     grid-template-columns: 900px 300px;
+    border-spacing: 15px;
     
 }
 .teorija{

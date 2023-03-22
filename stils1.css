@@ -1,7 +1,7 @@
 body{
     height: 1000px;
     background-color: #c7a98e; /* Ja netiek parādīts krāsu splūdums*/
-    background-image: linear-gradient(#c7a98e, #997a5f);
+    background-image: linear-gradient(#c7a98e, #8a6a4f);
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
 }

@@ -40,18 +40,14 @@ text-align: center;
 }
 .Uzdevumi{
 display: grid;
-background-color:#a08772;
-column-gap: 100px;
+background-color:#795d49;
 
-column-rule-color: #615353;
 border: 3px solid #001c25;
 text-align: center;
 }
 .Siltums{
 display: grid;
  background-color:#a08772;
-column-gap: 100px;
- column-rule-color: #615353;
  border: 3px solid #001c25;
 text-align: center;
 padding: 5px; 
@@ -67,8 +63,6 @@ font-size: 16px;
 .Elektriba{
 display: grid;
 background-color:#a08772;
-column-gap: 100px;
-column-rule-color: #615353;
 border: 3px solid #001c25;
 text-align: center;
 padding: 5px; 
@@ -76,8 +70,6 @@ padding: 5px;
 .Elektriba_ikdiena{
 display: grid;
 background-color:#a08772;
-column-gap: 100px;
-column-rule-color: #615353;
 border: 3px solid #001c25;
 text-align: center;
 padding: 5px; 
@@ -85,8 +77,6 @@ padding: 5px;
 .Magnetisms{
 display: grid;
 background-color:#a08772;
-column-gap: 100px;
-column-rule-color: #615353;
 border: 3px solid #001c25;
 text-align: center;
 padding: 5px; 

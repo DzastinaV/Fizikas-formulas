@@ -47,16 +47,51 @@ column-rule-color: #615353;
 border: 3px solid #001c25;
 text-align: center;
 }
+.Siltums{
+display: grid;
+ background-color:#a08772;
+column-gap: 100px;
+ grid-template-columns: 900px 300px;
+ column-rule-color: #615353;
+ border: 3px solid #001c25;
+text-align: center;
+    }
 
+.Elektriba{
+display: grid;
+background-color:#a08772;
+column-gap: 100px;
+grid-template-columns: 900px 300px;
+column-rule-color: #615353;
+border: 3px solid #001c25;
+text-align: center;
+        }
+.Elektriba_ikdiena{
+display: grid;
+background-color:#a08772;
+column-gap: 100px;
+grid-template-columns: 900px 300px;
+column-rule-color: #615353;
+border: 3px solid #001c25;
+text-align: center;
+}
+.Magnetisms{
+display: grid;
+background-color:#a08772;
+column-gap: 100px;
+grid-template-columns: 900px 300px;
+column-rule-color: #615353;
+border: 3px solid #001c25;
+text-align: center;
+ }
 .button1{
     background-color: #ebe8e3; 
     border: none;
-    color: rgb(0, 0, 0);
+    color:rgb(31, 82, 105);
     padding: 15px 32px;
     text-align: center;
     display: inline-block;
     font-size: 16px;
-    border-radius: 15px;
     border: 2px solid #002033;
     margin:0 auto;
     display: block;
@@ -90,4 +125,26 @@ text-align: center;
   .closebtn:hover {
     color: black;
   }
-
+  .alert2 {
+    margin-top: 15px;
+    padding: 20px;
+    background-color: #0eac00;
+    color: white;
+    font-size:30px;
+    font-weight: bold;
+  }
+  
+  .closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .closebtn:hover {
+    color: black;
+  }

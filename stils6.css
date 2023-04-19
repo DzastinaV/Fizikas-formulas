@@ -23,6 +23,11 @@ h3{
     color: #f3f3f3;
     text-align: center;
 }
+p{
+  font-size:25px;
+    color: #f3f3f3;
+    text-align: center;
+}
 .teksts{
     text-align: center;
 }
@@ -154,7 +159,7 @@ padding: 5px;
   .alert3 {
     margin-top: 15px;
     padding: 20px;
-    background-color: #ffc400;
+    background-color: #f7a900;
     color: white;
     font-size:30px;
     font-weight: bold;

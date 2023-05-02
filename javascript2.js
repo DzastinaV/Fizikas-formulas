@@ -8,3 +8,13 @@ if (time < 10) {
 } else {
   alert("Labvakar!");
 }
+
+
+  const homepageURL = window.location.href;
+  function onPageLoad() {
+    const result = window.confirm("Vai Jums patīk šī lapa?");
+    if (!result) {
+      window.alert("Uzredzēšanos!");
+      window.location.href = "about:blank";
+    }
+  }

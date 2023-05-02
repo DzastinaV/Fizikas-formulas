@@ -12,8 +12,10 @@ p{
     display: flex;
     background-color:#004d66;
     column-gap: 100px;
-    grid-template-columns: 900px 300px;
+    grid-template-columns: 100%;
     border-spacing: 15px;
+    margin: 5px;
+    height: 100%;
     
 }
 .teorija{

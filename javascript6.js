@@ -26,3 +26,25 @@ if (i == 16 ) {
   text = alert( "Laipni lūgta/s, " + person + "!");
   document.getElementById("maxPunkti").innerHTML = text
 }
+
+
+/* siltuma daudzums
+termometrs
+pēdējā formula
+viss izņemot kušana
+
+atoms
+protons
+elektroni un lādiņš
+pirmais un pēdējais
+
+jā
+spriegums
+elektriskās shēmas
+slēdzi un spuldzītes
+
+ja
+2
+Magnētisms
+ziemelu un dienvidu
+

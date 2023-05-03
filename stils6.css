@@ -224,7 +224,14 @@ html{
   box-sizing: border-box;
 }
 
+table{
 
+}
+
+td {
+  text-align: center;
+}
+ 
 
 /* Lodzina kaste
 .container {

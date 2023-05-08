@@ -138,8 +138,8 @@ function submitQuiz() {
         // Check answer to question 13
         let q13 = document.getElementsByName("q13");
         for (let i = 0; i < q10.length; i++) {
-          if (q10[i].checked) {
-            if (q10[i].value == "c") {
+          if (q13[i].checked) {
+            if (q13[i].value == "c") {
               score++;
             }
             break;
@@ -149,8 +149,8 @@ function submitQuiz() {
         // Check answer to question 14
         let q14 = document.getElementsByName("q14");
         for (let i = 0; i < q11.length; i++) {
-          if (q11[i].checked) {
-            if (q11[i].value == "a") {
+          if (q14[i].checked) {
+            if (q14[i].value == "a") {
               score++;
             }
             break;
@@ -160,8 +160,8 @@ function submitQuiz() {
         // Check answer to question 15
         let q15 = document.getElementsByName("q15");
         for (let i = 0; i < q12.length; i++) {
-          if (q12[i].checked) {
-            if (q12[i].value == "c") {
+          if (q15[i].checked) {
+            if (q15[i].value == "c") {
               score++;
             }
             break;
@@ -171,8 +171,8 @@ function submitQuiz() {
          // Check answer to question 16
          let q16 = document.getElementsByName("q16");
          for (let i = 0; i < q12.length; i++) {
-           if (q12[i].checked) {
-             if (q12[i].value == "c") {
+           if (q16[i].checked) {
+             if (q16[i].value == "c") {
                score++;
              }
              break;

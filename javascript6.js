@@ -46,5 +46,4 @@ slēdzi un spuldzītes
 ja
 2
 Magnētisms
-ziemelu un dienvidu
-
+ziemelu un dienvidu*/

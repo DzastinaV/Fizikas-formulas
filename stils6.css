@@ -20,19 +20,26 @@ h2{
 }
 h3{
     font-size:25px;
-    color: #f3f3f3;
+    color: #001c25;
     text-align: center;
 }
+
+h4{
+  font-size:25px;
+  color: #f3f3f3;
+  text-align: center;
+}
+
 p{
   font-size:25px;
     color: #f3f3f3;
     text-align: center;
 }
-Option{
+/*Option{
   font-size:15px;
     color: #f3f3f3;
     text-align: center;
- }
+ }*/
 .teksts{
     text-align: center;
 }
@@ -61,14 +68,15 @@ display: grid;
  border: 3px solid #001c25;
 text-align: center;
 padding: 5px; 
+padding-bottom: 20px;
 }
 
-select{
+/*select{
 padding: 5px; 
 background:#cfc8bc; 
 border:none;
 font-size: 16px;
-} 
+} */
 
 .Elektriba{
 display: grid;
@@ -76,6 +84,7 @@ background-color:#a08772;
 border: 3px solid #001c25;
 text-align: center;
 padding: 5px; 
+padding-bottom: 20px;
         }
 .Elektriba_ikdiena{
 display: grid;
@@ -83,6 +92,7 @@ background-color:#a08772;
 border: 3px solid #001c25;
 text-align: center;
 padding: 5px; 
+padding-bottom: 20px;
 }
 .Magnetisms{
 display: grid;
@@ -90,6 +100,7 @@ background-color:#a08772;
 border: 3px solid #001c25;
 text-align: center;
 padding: 5px; 
+padding-bottom: 20px;
  }
 .button1{
     background-color: #ebe8e3; 
@@ -211,6 +222,7 @@ html{
 }
 #radiopoga {
   accent-color: var(--checked-color);
+  font-size: 16px
 }
 
 
@@ -225,11 +237,16 @@ html{
 }
 
 table{
-
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 560px;
+  padding-right: 40px;
 }
 
 td {
   text-align: center;
+  padding-left: 40px;
+  padding-right: 40px;
 }
  
 

@@ -32,7 +32,7 @@
           <table>
           <tr>
            <td>
-          <h3>Siltums</h3>
+          <h4>Siltums</h4>
           <li type = "circle">Q=c⋅m⋅(t2−t1) vai Q=c⋅m⋅Δt</li>
           <li type = "circle">Q=λ⋅m</li>
           <li type = "circle">Q=q⋅m</li>
@@ -40,17 +40,17 @@
           <li type = "circle">η=Q1:Q⋅100%</li>
            </td>
            <td>
-          <h3>Kur un Kā rodas elektrība</h3>
+          <h4>Kur un Kā rodas elektrība</h4>
           <li type = "circle">Nav formulu.</li>
 </td>
 <td>
-  <h3>Kā mēs ikdienā izmantojam elektrību</h3>
+  <h4>Kā mēs ikdienā izmantojam elektrību</h4>
           <li type = "circle">U=IR</li>
           <li type = "circle">A=UIt</li>
           <li type = "circle">E=P*t</li>
 </td>
 <td>
-  <h3>Kā magnētisms darbojas cilvēku labā</h3>
+  <h4>Kā magnētisms darbojas cilvēku labā</h4>
   <li type = "circle">Nav formulu.</li>
 </td>
 </tr>
@@ -60,14 +60,14 @@
       <br>
         <div class="Uzdevumi">
           <H2>Instrukcija uzdevumiem.</H2>
-          <h3>1. Par katru tēmu iespējams iegūt 4 punktus
+          <h4>1. Par katru tēmu iespējams iegūt 4 punktus
             <br>
             2. Maksimālais punktu skaits ir 16 (100%). Ja tiek iegūts šis rezultāts tiek parādīts paziņojums lapas augšā.
             <br>
             3. Ja tests ir vienkārši nokārtots (26%-99%), tad tiek paradīts paziņojums, kas apsveic ar panākumiem.
             <br>
             4. Minimālais punktu skaits ir 4 (25%). Ja netiek sasniegts šis rezultāts lapas augšā parādās brīdinājums.
-          </h3>
+          </h4>
         </div>
           <br>
         <div class="Siltums">
@@ -75,41 +75,31 @@
           <br>
           <form>
             <p>Kas ir apzīmēts ar burtu Q?</p>
-            <select id="mySelect">
-              <option>Enerģija</option>
-              <option>Siltuma daudzums</option>
-              <option>Siltums</option>
-              <option>Temperatūra</option>
-            </select>
+              <INPUT TYPE="radio" Name="q1" Value ="a" id="checkbox">Enerģija
+              <INPUT TYPE="radio" Name="q1" Value ="b" id="checkbox">Siltuma daudzums
+              <INPUT TYPE="radio" Name="q1" Value ="c" id="checkbox">Siltums
+              <INPUT TYPE="radio" Name="q1" Value ="d" id="checkbox">Temperatūra
+            
             <br>
             </form>
-            <p>Ar ko mēra temperatūru?(ieraksti ierīci nominatīvā)</p>
-            <form id="frm1">
-            <label for="fname">Ievadiet savu atbildi:</label>
-            <br>
-  <input type="text" id="teksts" name="tekstalodzins1"><br><br>
-  </form>
+            <p>Ar ko mēra temperatūru?(romij lūdzu vēl variantus :P)</p>
+              <INPUT TYPE="radio" Name="q2" Value ="a" id="checkbox">Enerģija
+              <INPUT TYPE="radio" Name="q2" Value ="b" id="checkbox">Siltuma daudzums
+              <INPUT TYPE="radio" Name="q2" Value ="c" id="checkbox">Siltums
+              <INPUT TYPE="radio" Name="q2" Value ="d" id="checkbox">Temperatūra
+            
   <br>
   <p>Kura formula ir saistīta ar šo tēmu?</p>
-  <INPUT TYPE="Radio" Name="siltums1" Value="Nepareizi" id="radiopoga">Q=q⋅M
-  <INPUT TYPE="Radio" Name="siltums1" Value="Nepareizi" id="radiopoga">s=t⋅v
-  <INPUT TYPE="Radio" Name="siltums1" Value="Nepareizi" id="radiopoga">Q=c⋅m⋅Δt⋅V
-  <INPUT TYPE="Radio" Name="siltums1" Value="Pareizi" id="radiopoga">Q=λ⋅m
+  <INPUT TYPE="Radio" Name="q3" Value="a" id="radiopoga">Q=q⋅M
+  <INPUT TYPE="Radio" Name="q3" Value="b" id="radiopoga">s=t⋅v
+  <INPUT TYPE="Radio" Name="q3" Value="c" id="radiopoga">Q=c⋅m⋅Δt⋅V
+  <INPUT TYPE="Radio" Name="q3" Value="d" id="radiopoga">Q=λ⋅m
   <br>
   <p>Kādi ir siltuma pārneses veidi?</p>
-  <label class="container">
-  <INPUT TYPE="Checkbox" Name="siltums2" Value ="Pareizi" id="checkbox">Siltumvadīšana
-    <span class="checkmark"></span>
-  </label>
-  <label class="container">
-  <INPUT TYPE="Checkbox" Name="siltums2" Value ="Pareizi" id="checkbox">Konvekcija
-  </label>
-    <label class="container">
-  <INPUT TYPE="Checkbox" Name="siltums2" Value ="Nepareizi" id="checkbox">Kušana
-  </label>
-    <label class="container">
-  <INPUT TYPE="Checkbox" Name="siltums2" Value ="Pareizi" id="checkbox">Siltumstarojums
-  </label>
+  <INPUT TYPE="radio" Name="q4" Value ="a" id="checkbox">Siltumvadīšana
+  <INPUT TYPE="radio" Name="q4" Value ="b" id="checkbox">Konvekcija
+  <INPUT TYPE="radio" Name="q4" Value ="c" id="checkbox">Kušana
+  <INPUT TYPE="radio" Name="q4" Value ="d" id="checkbox">Siltumstarojums
   <br>
         </div>
           <br>
@@ -117,32 +107,32 @@
           <h3>Kur un Kā rodās elektrība?</h3>
           <p>Kāda ir vielas vissīkākā daļiņa?</p>
           <form>
-            <select id="mySelect">
-              <option>Šūna</option>
-              <option>Atoms</option>
-              <option>Muskulis</option>
-              <option>Molekula</option>
-            </select>
+            
+              <INPUT TYPE="radio" Name="q5" Value ="a" id="checkbox">Šūna
+              <INPUT TYPE="radio" Name="q5" Value ="b" id="checkbox">Atoms
+              <INPUT TYPE="radio" Name="q5" Value ="c" id="checkbox">Muskulis
+              <INPUT TYPE="radio" Name="q5" Value ="d" id="checkbox">Molekula
             <br>
             </form>
-            <p>Kā sauc pozitīvu atoma daļiņu?(atbildi rakstīt nominatīvā)</p>
-            <form id="frm2">
-              <label for="fname">Ievadiet savu atbildi:</label>
-              <br>
-    <input type="text" id="teksts" name="tekstalodzins2"><br><br>
-    </form>
+            <p>Kā sauc pozitīvu atoma daļiņu?(VĒL ATBILDES!!!)</p>
+
+            <INPUT TYPE="radio" Name="q6" Value ="a" id="checkbox">Enerģija
+            <INPUT TYPE="radio" Name="q6" Value ="b" id="checkbox">Siltuma daudzums
+            <INPUT TYPE="radio" Name="q6" Value ="c" id="checkbox">Siltums
+            <INPUT TYPE="radio" Name="q6" Value ="d" id="checkbox">Temperatūra
+            
     <br>
   <p>Kas neietilpst atoma kodolā?</p>
-  <INPUT TYPE="Radio" Name="elektriba1" Value="a" id="radiopoga">protoni
-  <INPUT TYPE="Radio" Name="elektriba1" Value="b" id="radiopoga">neitroni
-  <INPUT TYPE="Radio" Name="elektriba1" Value="c" id="radiopoga">lādiņš
-  <INPUT TYPE="Radio" Name="elektriba" Value="d" id="radiopoga">elektroni
+  <INPUT TYPE="Radio" Name="q7" Value="a" id="radiopoga">protoni
+  <INPUT TYPE="Radio" Name="q7" Value="b" id="radiopoga">neitroni
+  <INPUT TYPE="Radio" Name="q7" Value="c" id="radiopoga">lādiņš
+  <INPUT TYPE="Radio" Name="q7" Value="d" id="radiopoga">elektroni
   <br>
   <p>Kuri ir pareizi apgalvojumi? (2 pareizi)</p>
-  <INPUT TYPE="Checkbox" Name="elektriba2" Value ="Firefox" id="checkbox">Protonu skaits atoma kodolā ir vienāds ar elementa kārtas numuru periodiskajā tabulā
-  <INPUT TYPE="Checkbox" Name="elektriba2" Value ="Firefox" id="checkbox">Elektronu skaitu nevar noteikt
-  <INPUT TYPE="Checkbox" Name="elektriba2" Value ="Firefox" id="checkbox">Neitroni visos atomos ir vienādā skaitā
-  <INPUT TYPE="Checkbox" Name="elekrtiba2" Value ="Firefox" id="checkbox">Elektronu skaits normālā atomā ir vienāds ar elementa kārtas numuru periodiskajā tabulā.
+  <INPUT TYPE="radio" Name="q8" Value ="Firefox" id="checkbox">Protonu skaits atoma kodolā ir vienāds ar elementa kārtas numuru periodiskajā tabulā
+  <INPUT TYPE="radio" Name="q8" Value ="Firefox" id="checkbox">Elektronu skaitu nevar noteikt
+  <INPUT TYPE="radio" Name="q8" Value ="Firefox" id="checkbox">Neitroni visos atomos ir vienādā skaitā
+  <INPUT TYPE="radio" Name="q8" Value ="Firefox" id="checkbox">Elektronu skaits normālā atomā ir vienāds ar elementa kārtas numuru periodiskajā tabulā.
   <br>
         </div>
           <br>
@@ -150,29 +140,27 @@
           <h3>Kā mēs ikdienā izmantojam elektrību?</h3>
           <p>vai elektriskās ķēdes ir nepieciešamas?</p>
           <form>
-            <select id="mySelect">
-              <option>Jā</option>
-              <option>Nē</option>
-            </select>
+            <INPUT TYPE="radio" Name="q9" Value ="Firefox" id="checkbox">Jā
+            <INPUT TYPE="radio" Name="q9" Value ="Firefox" id="checkbox">Nē
             <br>
             </form>
             <p>Kāds ir U apzīmējums?</p>
-            <form id="frm3">
-              <label for="fname">Ievadiet savu atbildi:</label>
-              <br>
-    <input type="text" id="teksts" name="tekstalodzins3"><br><br>
-    </form>
+              <INPUT TYPE="radio" Name="q10" Value ="Pareizi" id="checkbox">Enerģija
+              <INPUT TYPE="radio" Name="q10" Value ="Pareizi" id="checkbox">Siltuma daudzums
+              <INPUT TYPE="radio" Name="q10" Value ="Pareizi" id="checkbox">Siltums
+              <INPUT TYPE="radio" Name="q10" Value ="Pareizi" id="checkbox">Temperatūra
+            <br>
     <p>Lai apzīmētu elektriskās ķēdes izmanto..</p>
-  <INPUT TYPE="Radio" Name="ikdiena1" Value="a" id="radiopoga">rasējuma plānu
-  <INPUT TYPE="Radio" Name="ikdiena1" Value="b" id="radiopoga">elektriskās shēmas
-  <INPUT TYPE="Radio" Name="ikdiena1" Value="c" id="radiopoga">neko neizmanto
-  <INPUT TYPE="Radio" Name="ikdiena1" Value="d" id="radiopoga">skices
+  <INPUT TYPE="Radio" Name="q11" Value="a" id="radiopoga">rasējuma plānu
+  <INPUT TYPE="Radio" Name="q11" Value="b" id="radiopoga">elektriskās shēmas
+  <INPUT TYPE="Radio" Name="q11" Value="c" id="radiopoga">neko neizmanto
+  <INPUT TYPE="Radio" Name="q11" Value="d" id="radiopoga">skices
   <br>
   <p>Elektriskajās ķēdēs izmanto..</p>
-  <INPUT TYPE="Checkbox" Name="ikdiena2" Value ="Firefox" id="checkbox">slēdzi
-  <INPUT TYPE="Checkbox" Name="ikdiena2" Value ="Firefox" id="checkbox">papīru
-  <INPUT TYPE="Checkbox" Name="ikdiena2" Value ="Firefox" id="checkbox">spuldzītes
-  <INPUT TYPE="Checkbox" Name="ikdiena2" Value ="Firefox" id="checkbox">koku
+  <INPUT TYPE="radio" Name="q12" Value ="Firefox" id="checkbox">slēdzi
+  <INPUT TYPE="radio" Name="q12" Value ="Firefox" id="checkbox">papīru
+  <INPUT TYPE="radio" Name="q12" Value ="Firefox" id="checkbox">spuldzītes
+  <INPUT TYPE="radio" Name="q12" Value ="Firefox" id="checkbox">koku
   <br>
         </div>
           <br>
@@ -180,35 +168,34 @@
           <h3>Kā magnētisms darbojas cilvēku labā?</h3>
           <p>Vai magnēti ir nepieciešami ikdienā?</p>
           <form>
-            <select id="mySelect">
-              <option>Jā</option>
-              <option>Nē</option>
-              <option>Nav ne jausmas</option>
-            </select>
+            <INPUT TYPE="Radio" Name="q13" Value="a" id="radiopoga">Jā
+            <INPUT TYPE="Radio" Name="q13" Value="b" id="radiopoga">Nē
+            <INPUT TYPE="Radio" Name="q13" Value="c" id="radiopoga">Nav ne jausmas
             <br>
             </form>
             <p>Ieraksti ar skaitli, cik magnētam ir polu?</p>
-            <form id="frm4">
-              <label for="fname">Ievadiet savu atbildi:</label>
-              <br>
-    <input type="text" id="teksts" name="tekstalodzins4"><br><br>
+              <INPUT TYPE="Radio" Name="q14" Value="a" id="radiopoga">Magnētisms
+              <INPUT TYPE="Radio" Name="q14" Value="b" id="radiopoga">Elektrība
+              <INPUT TYPE="Radio" Name="q14" Value="c" id="radiopoga">Magnētpolu pieraušanās
+              <INPUT TYPE="Radio" Name="q14" Value="d" id="radiopoga">Tāda parādība neeksistē
+    <br>
     </form>
     <p>Kas ir parādība, kurā dzelzsrūdas gabali pievelk dzelzs priekšmetus?</p>
-    <INPUT TYPE="Radio" Name="magnetisms1" Value="a" id="radiopoga">Magnētisms
-      <INPUT TYPE="Radio" Name="magnetisms1" Value="b" id="radiopoga">Elektrība
-      <INPUT TYPE="Radio" Name="magnetisms1" Value="c" id="radiopoga">Magnētpolu pieraušanās
-      <INPUT TYPE="Radio" Name="magnetisms1" Value="d" id="radiopoga">Tāda parādība neeksistē
+    <INPUT TYPE="Radio" Name="q15" Value="a" id="radiopoga">Magnētisms
+      <INPUT TYPE="Radio" Name="q15" Value="b" id="radiopoga">Elektrība
+      <INPUT TYPE="Radio" Name="q15" Value="c" id="radiopoga">Magnētpolu pieraušanās
+      <INPUT TYPE="Radio" Name="q15" Value="d" id="radiopoga">Tāda parādība neeksistē
       <br>
       <p>Kādi poli ir magnētam?</p>
-      <INPUT TYPE="Checkbox" Name="magnetisms2" Value ="Firefox" id="checkbox">Ziemeļu
-      <INPUT TYPE="Checkbox" Name="magnetisms2" Value ="Firefox" id="checkbox">Austrumu
-      <INPUT TYPE="Checkbox" Name="magnetisms2" Value ="Firefox" id="checkbox">Rietumu
-      <INPUT TYPE="Checkbox" Name="magnetisms2" Value ="Firefox" id="checkbox">Dienvidu
+      <INPUT TYPE="radio" Name="q16" Value ="Firefox" id="checkbox">Ziemeļu
+      <INPUT TYPE="radio" Name="q16" Value ="Firefox" id="checkbox">Austrumu
+      <INPUT TYPE="radio" Name="q16" Value ="Firefox" id="checkbox">Rietumu
+      <INPUT TYPE="radio" Name="q16" Value ="Firefox" id="checkbox">Dienvidu
       <br>
         </div>
+        <div id="result"></div>
         <p> 
-          
-         <button class="button2"type="button">Iesniegt atbildes</button>
+          <button type="submit" onclick="submitQuiz()">Iesniegt</button>
           </p>
         <p> 
             <a href="zifmix.html"> <button class="button1"type="button">Atgriezties uz sākumu</button></a>

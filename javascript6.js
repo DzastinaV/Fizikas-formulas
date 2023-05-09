@@ -137,7 +137,7 @@ function submitQuiz() {
 
         // Check answer to question 13
         let q13 = document.getElementsByName("q13");
-        for (let i = 0; i < q10.length; i++) {
+        for (let i = 0; i < q1.length; i++) {
           if (q13[i].checked) {
             if (q13[i].value == "c") {
               score++;
@@ -148,7 +148,7 @@ function submitQuiz() {
       
         // Check answer to question 14
         let q14 = document.getElementsByName("q14");
-        for (let i = 0; i < q11.length; i++) {
+        for (let i = 0; i < q1.length; i++) {
           if (q14[i].checked) {
             if (q14[i].value == "a") {
               score++;

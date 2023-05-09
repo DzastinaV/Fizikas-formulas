@@ -35,11 +35,7 @@ p{
     color: #f3f3f3;
     text-align: center;
 }
-/*Option{
-  font-size:15px;
-    color: #f3f3f3;
-    text-align: center;
- }*/
+
 .teksts{
     text-align: center;
 }
@@ -71,12 +67,6 @@ padding: 5px;
 padding-bottom: 20px;
 }
 
-/*select{
-padding: 5px; 
-background:#cfc8bc; 
-border:none;
-font-size: 16px;
-} */
 
 .Elektriba{
 display: grid;
@@ -249,72 +239,3 @@ td {
   padding-right: 40px;
 }
  
-
-/* Lodzina kaste
-.container {
-  display: block;
-  position: relative;
-  padding-left: 35px;
-  margin-bottom: 12px;
-  cursor: pointer;
-  font-size: 15px;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
-
-/*Paslepj parasto dizainu
-.container input {
-  position: absolute;
-  opacity: 0;
-  cursor: pointer;
-  height: 0;
-  width: 0;
-}
-
-/* Izveido jaunu dizainu 
-.checkmark {
-  position: middle;
-  top: 0;
-  left: 0;
-  height: 25px;
-  width: 25px;
-  background-color: #eee;
-}
-
-/* fons 
-.container:hover input ~ .checkmark {
-  background-color: #ccc;
-}
-
-/* Kad atzimets
-.container input:checked ~ .checkmark {
-  background-color: #ff5722;
-}
-
-/* Kad nav atzimets 
-.checkmark:after {
-  content: "";
-  position: middle;
-  display: none;
-}
-
-/* Radit kad atzimets 
-.container input:checked ~ .checkmark:after {
-  display: block;
-}
-
-/* Stils atzīmei
-.container .checkmark:after {
-  left: 250px;
-  top: 5px;
-  width: 5px;
-  height: 10px;
-  border: solid white;
-  border-width: 0 3px 3px 0;
-  -webkit-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  transform: rotate(45deg);
-}
-*/

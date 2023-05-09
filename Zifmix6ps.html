@@ -13,18 +13,7 @@
     <hr>
     <h2>Pārbaudi sevi ir apkopotas visas tēmas vienā testā, lai uzzinātu vai spēj pielietot formulas uzdevumos.</h2>
     <h3>Formulas nav nepieciešams iegaumēt, tāpēc tās jau ir dotas.</h3>
-    <div class="alert">
-      <span class="closebtn" onclick="this.parentElement.style.display='none';" id="maxPunkti">&times;</span>
-      Nav sasniegts minimālais punktu skaits!!!
-    </div>
-    <div class="alert3">
-      <span class="closebtn" onclick="this.parentElement.style.display='none';" id="sekPunkti">&times;</span>
-     Sasniegts sekmīgs punktu skaits!
-    </div>
-    <div class="alert2">
-      <span class="closebtn" onclick="this.parentElement.style.display='none';" id="minPunkti">&times;</span>
-     Sasniegts maksimālais punktu skaits!
-    </div>
+    
     <br>
     <div class="teksts">
     <div class="apmale">
@@ -60,33 +49,27 @@
       <br>
         <div class="Uzdevumi">
           <H2>Instrukcija uzdevumiem.</H2>
-          <h4>1. Par katru tēmu iespējams iegūt 4 punktus
-            <br>
-            2. Maksimālais punktu skaits ir 16 (100%). Ja tiek iegūts šis rezultāts tiek parādīts paziņojums lapas augšā.
-            <br>
-            3. Ja tests ir vienkārši nokārtots (26%-99%), tad tiek paradīts paziņojums, kas apsveic ar panākumiem.
-            <br>
-            4. Minimālais punktu skaits ir 4 (25%). Ja netiek sasniegts šis rezultāts lapas augšā parādās brīdinājums.
-          </h4>
+          <h4>Domā aktīvi un pildi uzdevumus. Atceries, ka galvenās ir zināšanas, nevis prasmes!</h4>
         </div>
           <br>
         <div class="Siltums">
           <h3>Kā siltums izplatās un maina ķermeņu īpašības?</h3>
           <br>
+      
           <form>
             <p>Kas ir apzīmēts ar burtu Q?</p>
-              <INPUT TYPE="radio" Name="q1" Value ="a" id="checkbox">Enerģija
-              <INPUT TYPE="radio" Name="q1" Value ="b" id="checkbox">Siltuma daudzums
-              <INPUT TYPE="radio" Name="q1" Value ="c" id="checkbox">Siltums
-              <INPUT TYPE="radio" Name="q1" Value ="d" id="checkbox">Temperatūra
+              <INPUT TYPE="Radio" Name="q1" Value ="a" id="radiopoga">Enerģija<br>
+              <INPUT TYPE="Radio" Name="q1" Value ="b" id="radiopoga">Siltuma daudzums<br>
+              <INPUT TYPE="Radio" Name="q1" Value ="c" id="radiopoga">Siltums<br>
+              <INPUT TYPE="Radio" Name="q1" Value ="d" id="radiopoga">Temperatūra
             
             <br>
             </form>
-            <p>Ar ko mēra temperatūru?(romij lūdzu vēl variantus :P)</p>
-              <INPUT TYPE="radio" Name="q2" Value ="a" id="checkbox">Enerģija
-              <INPUT TYPE="radio" Name="q2" Value ="b" id="checkbox">Siltuma daudzums
-              <INPUT TYPE="radio" Name="q2" Value ="c" id="checkbox">Siltums
-              <INPUT TYPE="radio" Name="q2" Value ="d" id="checkbox">Temperatūra
+            <p>Ar ko mēra temperatūru?</p>
+              <INPUT TYPE="Radio" Name="q2" Value ="a" id="radiopoga">Barometru
+              <INPUT TYPE="Radio" Name="q2" Value ="b" id="radiopoga">Termometru
+              <INPUT TYPE="Radio" Name="q2" Value ="c" id="radiopoga">Lineālu
+              <INPUT TYPE="Radio" Name="q2" Value ="d" id="radiopoga">Spidometru
             
   <br>
   <p>Kura formula ir saistīta ar šo tēmu?</p>
@@ -95,11 +78,11 @@
   <INPUT TYPE="Radio" Name="q3" Value="c" id="radiopoga">Q=c⋅m⋅Δt⋅V
   <INPUT TYPE="Radio" Name="q3" Value="d" id="radiopoga">Q=λ⋅m
   <br>
-  <p>Kādi ir siltuma pārneses veidi?</p>
-  <INPUT TYPE="radio" Name="q4" Value ="a" id="checkbox">Siltumvadīšana
-  <INPUT TYPE="radio" Name="q4" Value ="b" id="checkbox">Konvekcija
-  <INPUT TYPE="radio" Name="q4" Value ="c" id="checkbox">Kušana
-  <INPUT TYPE="radio" Name="q4" Value ="d" id="checkbox">Siltumstarojums
+  <p>Kuri ir siltuma pārneses veidi?</p>
+  <INPUT TYPE="radio" Name="q4" Value ="a" id="radiopoga">Siltumvadīšana, konvekcija, siltumstarojums
+  <INPUT TYPE="radio" Name="q4" Value ="b" id="radiopoga">Sacietēšana
+  <INPUT TYPE="radio" Name="q4" Value ="c" id="radiopoga">Kušana, iztvaikošana
+  <INPUT TYPE="radio" Name="q4" Value ="d" id="radiopoga">Tikai siltumstarojums
   <br>
         </div>
           <br>
@@ -108,31 +91,29 @@
           <p>Kāda ir vielas vissīkākā daļiņa?</p>
           <form>
             
-              <INPUT TYPE="radio" Name="q5" Value ="a" id="checkbox">Šūna
-              <INPUT TYPE="radio" Name="q5" Value ="b" id="checkbox">Atoms
-              <INPUT TYPE="radio" Name="q5" Value ="c" id="checkbox">Muskulis
-              <INPUT TYPE="radio" Name="q5" Value ="d" id="checkbox">Molekula
+              <INPUT TYPE="radio" Name="q5" Value ="a" id="radiopoga">Šūna<br>
+              <INPUT TYPE="radio" Name="q5" Value ="b" id="radiopoga">Atoms<br>
+              <INPUT TYPE="radio" Name="q5" Value ="c" id="radiopoga">Muskulis<br>
+              <INPUT TYPE="radio" Name="q5" Value ="d" id="radiopoga">Molekula
             <br>
             </form>
-            <p>Kā sauc pozitīvu atoma daļiņu?(VĒL ATBILDES!!!)</p>
+            <p>Ko sauc par pozitīvu atoma daļiņu?</p>
 
-            <INPUT TYPE="radio" Name="q6" Value ="a" id="checkbox">Enerģija
-            <INPUT TYPE="radio" Name="q6" Value ="b" id="checkbox">Siltuma daudzums
-            <INPUT TYPE="radio" Name="q6" Value ="c" id="checkbox">Siltums
-            <INPUT TYPE="radio" Name="q6" Value ="d" id="checkbox">Temperatūra
+            <INPUT TYPE="radio" Name="q6" Value ="a" id="radiopoga">Protonu
+            <INPUT TYPE="radio" Name="q6" Value ="b" id="radiopoga">Elektrons
+            <INPUT TYPE="radio" Name="q6" Value ="c" id="radiopoga">Neitrons
+            <INPUT TYPE="radio" Name="q6" Value ="d" id="radiopoga">Poltons
             
     <br>
   <p>Kas neietilpst atoma kodolā?</p>
   <INPUT TYPE="Radio" Name="q7" Value="a" id="radiopoga">protoni
   <INPUT TYPE="Radio" Name="q7" Value="b" id="radiopoga">neitroni
-  <INPUT TYPE="Radio" Name="q7" Value="c" id="radiopoga">lādiņš
-  <INPUT TYPE="Radio" Name="q7" Value="d" id="radiopoga">elektroni
+  <INPUT TYPE="Radio" Name="q7" Value="c" id="radiopoga">elektroni
   <br>
-  <p>Kuri ir pareizi apgalvojumi? (2 pareizi)</p>
-  <INPUT TYPE="radio" Name="q8" Value ="a" id="checkbox">Protonu skaits atoma kodolā ir vienāds ar elementa kārtas numuru periodiskajā tabulā
-  <INPUT TYPE="radio" Name="q8" Value ="b" id="checkbox">Elektronu skaitu nevar noteikt
-  <INPUT TYPE="radio" Name="q8" Value ="c" id="checkbox">Neitroni visos atomos ir vienādā skaitā
-  <INPUT TYPE="radio" Name="q8" Value ="d" id="checkbox">Elektronu skaits normālā atomā ir vienāds ar elementa kārtas numuru periodiskajā tabulā.
+  <p>Kurš ir pareizi apgalvojumi?</p>
+  <INPUT TYPE="radio" Name="q8" Value ="a" id="radiopoga">Protonu skaits atoma kodolā ir vienāds ar elementa kārtas numuru periodiskajā tabulā
+  <INPUT TYPE="radio" Name="q8" Value ="b" id="radiopoga">Elektronu skaitu nevar noteikt
+  <INPUT TYPE="radio" Name="q8" Value ="c" id="radiopoga">Neitroni visos atomos ir vienādā skaitā
   <br>
         </div>
           <br>
@@ -140,15 +121,15 @@
           <h3>Kā mēs ikdienā izmantojam elektrību?</h3>
           <p>vai elektriskās ķēdes ir nepieciešamas?</p>
           <form>
-            <INPUT TYPE="radio" Name="q9" Value ="a" id="checkbox">Jā
-            <INPUT TYPE="radio" Name="q9" Value ="b" id="checkbox">Nē
+            <INPUT TYPE="radio" Name="q9" Value ="a" id="radiopoga">Jā<br>
+            <INPUT TYPE="radio" Name="q9" Value ="b" id="radiopoga">Nē<br>
             <br>
             </form>
             <p>Kāds ir U apzīmējums?</p>
-              <INPUT TYPE="radio" Name="q10" Value ="a" id="checkbox">Enerģija
-              <INPUT TYPE="radio" Name="q10" Value ="b" id="checkbox">Siltuma daudzums
-              <INPUT TYPE="radio" Name="q10" Value ="c" id="checkbox">Siltums
-              <INPUT TYPE="radio" Name="q10" Value ="d" id="checkbox">Temperatūra
+              <INPUT TYPE="radio" Name="q10" Value ="a" id="radiopoga">Jauda
+              <INPUT TYPE="radio" Name="q10" Value ="b" id="radiopoga">Pretestība
+              <INPUT TYPE="radio" Name="q10" Value ="c" id="radiopoga">Strāva
+              <INPUT TYPE="radio" Name="q10" Value ="d" id="radiopoga">Spriegums
             <br>
     <p>Lai apzīmētu elektriskās ķēdes izmanto..</p>
   <INPUT TYPE="Radio" Name="q11" Value="a" id="radiopoga">rasējuma plānu
@@ -157,10 +138,10 @@
   <INPUT TYPE="Radio" Name="q11" Value="d" id="radiopoga">skices
   <br>
   <p>Elektriskajās ķēdēs izmanto..</p>
-  <INPUT TYPE="radio" Name="q12" Value ="a" id="checkbox">slēdzi
-  <INPUT TYPE="radio" Name="q12" Value ="b" id="checkbox">papīru
-  <INPUT TYPE="radio" Name="q12" Value ="c" id="checkbox">spuldzītes
-  <INPUT TYPE="radio" Name="q12" Value ="d" id="checkbox">koku
+  <INPUT TYPE="radio" Name="q12" Value ="a" id="radiopoga">slēdzi
+  <INPUT TYPE="radio" Name="q12" Value ="b" id="radiopoga">papīru
+  <INPUT TYPE="radio" Name="q12" Value ="c" id="radiopoga">neko
+  <INPUT TYPE="radio" Name="q12" Value ="d" id="radiopoga">koku
   <br>
         </div>
           <br>
@@ -168,37 +149,38 @@
           <h3>Kā magnētisms darbojas cilvēku labā?</h3>
           <p>Vai magnēti ir nepieciešami ikdienā?</p>
           <form>
-            <INPUT TYPE="Radio" Name="q13" Value="a" id="radiopoga">Jā
-            <INPUT TYPE="Radio" Name="q13" Value="b" id="radiopoga">Nē
+            <INPUT TYPE="Radio" Name="q13" Value="a" id="radiopoga">Jā<br>
+            <INPUT TYPE="Radio" Name="q13" Value="b" id="radiopoga">Nē<br>
             <INPUT TYPE="Radio" Name="q13" Value="c" id="radiopoga">Nav ne jausmas
             <br>
             </form>
             <p>Ieraksti ar skaitli, cik magnētam ir polu?</p>
-              <INPUT TYPE="Radio" Name="q14" Value="a" id="radiopoga">Magnētisms
-              <INPUT TYPE="Radio" Name="q14" Value="b" id="radiopoga">Elektrība
-              <INPUT TYPE="Radio" Name="q14" Value="c" id="radiopoga">Magnētpolu pieraušanās
-              <INPUT TYPE="Radio" Name="q14" Value="d" id="radiopoga">Tāda parādība neeksistē
+              <INPUT TYPE="Radio" Name="q14" Value="a" id="radiopoga">1
+              <INPUT TYPE="Radio" Name="q14" Value="b" id="radiopoga">0
+              <INPUT TYPE="Radio" Name="q14" Value="c" id="radiopoga">2
+              <INPUT TYPE="Radio" Name="q14" Value="d" id="radiopoga">4
     <br>
     </form>
     <p>Kas ir parādība, kurā dzelzsrūdas gabali pievelk dzelzs priekšmetus?</p>
     <INPUT TYPE="Radio" Name="q15" Value="a" id="radiopoga">Magnētisms
       <INPUT TYPE="Radio" Name="q15" Value="b" id="radiopoga">Elektrība
-      <INPUT TYPE="Radio" Name="q15" Value="c" id="radiopoga">Magnētpolu pieraušanās
+      <INPUT TYPE="Radio" Name="q15" Value="c" id="radiopoga">Magnētpolu dabiskā konvekcijas pieraušanās
       <INPUT TYPE="Radio" Name="q15" Value="d" id="radiopoga">Tāda parādība neeksistē
       <br>
       <p>Kādi poli ir magnētam?</p>
-      <INPUT TYPE="radio" Name="q16" Value ="a" id="checkbox">Ziemeļu
-      <INPUT TYPE="radio" Name="q16" Value ="b" id="checkbox">Austrumu
-      <INPUT TYPE="radio" Name="q16" Value ="c" id="checkbox">Rietumu
-      <INPUT TYPE="radio" Name="q16" Value ="d" id="checkbox">Dienvidu
+      <INPUT TYPE="radio" Name="q16" Value ="a" id="radiopoga">Tikai ziemeļu
+      <INPUT TYPE="radio" Name="q16" Value ="b" id="radiopoga">Austrumu
+      <INPUT TYPE="radio" Name="q16" Value ="c" id="radiopoga">Ziemeļu, dienvidu
+      <INPUT TYPE="radio" Name="q16" Value ="d" id="radiopoga">Dienvidu, rietumu
       <br>
         </div>
         <div><p id="result"></p></div>
         <p> 
           
-          <button type="submit" onclick="submitQuiz()">Iesniegt</button>
+          <button type="submit" onclick="submitQuiz()" class="button1">Iesniegt</button>
           </p>
-
+          <a><a href="zifmix.html"> <button class="button1" type="button">Atgriezties sākumā</button></a>
+        </p>
         </div>
 </body>
 </html>

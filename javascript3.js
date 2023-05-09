@@ -1,3 +1,1 @@
-alert("Laipni lūgti pirmās tēmas lapā!");
-
-alert("Tev paveicās, jo šajā tēmā nav formulu");
+alert("Laipni lūgti otrās tēmas lapā! Šeit nav formulu");
